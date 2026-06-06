@@ -1,0 +1,62 @@
+NETWORKING_TASK 01 - COMMAND OUTPUTS
+
+WINDOWS
+
+Command:
+ipconfig /all
+
+Output:
+Hostname: LAPTOP-UPABTK5H
+IPv4 Address: 192.168.27.1
+Subnet Mask: 255.255.255.0
+Default Gateway: 10.180.51.197
+DNS Server: 10.180.51.197
+
+---
+
+Command:
+ping google.com
+
+Output:
+Reply received successfully.
+Packets Sent = 4
+Packets Received = 4
+Packets Lost = 0
+
+---
+
+Command:
+tracert google.com
+
+Output:
+Route traced successfully.
+Total Hops: 16
+
+---
+
+KALI LINUX
+
+Command:
+ip addr
+
+Output:
+Interface: eth0
+IPv4 Address: 10.180.51.214
+
+---
+
+Command:
+ping google.com
+
+Output:
+Connectivity verified successfully.
+Replies received from destination server.
+
+---
+
+Command:
+traceroute google.com
+
+Output:
+Route traced successfully.
+Total Hops: 17

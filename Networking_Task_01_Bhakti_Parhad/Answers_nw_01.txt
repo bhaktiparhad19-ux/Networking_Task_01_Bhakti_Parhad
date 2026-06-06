@@ -1,0 +1,88 @@
+NETWORKING_TASK 01 - ANSWERS
+
+
+
+Basic Networking Concepts :
+
+Q1. What is an IP Address?
+Answer:
+An IP (Internet Protocol) Address is a unique numerical address assigned to a device on a network. It helps devices identify and communicate with each other over a network.
+
+Q2. What is a MAC Address?
+Answer:
+A MAC (Media Access Control) Address is a unique hardware identifier assigned to a network interface card (NIC). It is used for communication within a local network.
+
+Q3. What is a Default Gateway?
+Answer:
+A Default Gateway is a networking device, usually a router, that forwards data from a local network to other networks, including the Internet.
+
+Q4. What is DNS?
+Answer:
+DNS (Domain Name System) is a service that translates human-readable domain names, such as google.com, into IP addresses that computers can understand.
+
+Q5. What is the difference between Public and Private IP Addresses?
+Answer:
+
+Public IP Address:
+
+* Used for communication over the Internet.
+* Accessible from anywhere on the Internet.
+* Assigned by an Internet Service Provider (ISP).
+
+Private IP Address:
+
+* Used within a local network.
+* Not directly accessible from the Internet.
+* Assigned by a router or network administrator.
+
+Examples:
+Public IP: 8.8.8.8
+Private IP: 192.168.1.10
+
+
+
+Network Configuration Analysis :
+
+Q1. What is the hostname of the system?
+Answer: LAPTOP-UPABTK5H
+
+Q2. What is the IPv4 address of the system?
+Answer: 192.168.27.1
+
+Q3. What is the subnet mask?
+Answer: 255.255.255.0
+
+Q4. What is the default gateway?
+Answer: 10.180.51.197
+
+Q5. What is the DNS server?
+Answer: 10.180.51.197
+
+
+
+Ping Test :
+
+Q1. Was the ping successful?
+Answer: Yes, the ping was successful. Replies were received from the destination server, confirming network connectivity.
+
+
+
+Traceroute Analysis :
+
+Q1. How many hops were shown?
+Answer:
+Windows (tracert): 16 hops
+Kali Linux (traceroute): 17 hops
+
+Q2. What is the purpose of traceroute?
+Answer: Traceroute is used to identify the path taken by data packets from a source device to a destination server. It helps analyze routing paths and troubleshoot network connectivity issues.
+
+
+
+Linux (Kali) Verification :
+
+Q1. Was network connectivity verified successfully?
+Answer: Yes, network connectivity was verified successfully using ping and traceroute commands in Kali Linux.
+
+Q2. What was observed from the Linux commands?
+Answer: The commands displayed network interface details, IP address information, successful connectivity to the destination server, and the routing path taken by network packets.
