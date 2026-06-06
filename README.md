@@ -71,6 +71,8 @@ This project was completed as part of Week 1 of the White Band Associates Summer
 * `Network_Diagram.png`
 * Screenshots
 * `README.md`
+* Answer to Questions
+* Command Outputs
 
 ---
 
